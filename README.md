@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29911903/README.md)
 # Waves of Change — SOS Grande contest app
 
 A bilingual (English/Spanish) web app for running SOS Grande's "Waves of
