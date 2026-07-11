@@ -201,9 +201,4 @@ on any Netlify site that has functions enabled.
   `netlify/functions/wipe.js` and `netlify/functions/delete-submission.js`.
 - **There's no per-admin login or audit log** — anyone with the password has
   full access to every destructive action (status changes, deletions, wipe).
-  This is intentional for a small, trusted organizing team, but wouldn't
-  scale to a larger or less trusted group without adding real auth.
-- **All destructive server-side actions re-check the password themselves**
-  (delete-submission, wipe) rather than trusting the client — so the admin
-  UI being password-gated isn't the only thing standing between a stray
-  request and data loss.
+  This is intentional for a small, trusted organizing team.
